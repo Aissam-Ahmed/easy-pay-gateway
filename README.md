@@ -15,7 +15,9 @@ This project demonstrates how to use the **Factory Method** pattern to decouple 
 2. Open your browser and access the URL with the payment method query parameter:
 
 http://your-server/index.php?method=paypal
+
 http://your-server/index.php?method=stripe
+
 http://your-server/index.php?method=bank
 
 
