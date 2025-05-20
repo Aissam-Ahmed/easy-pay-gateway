@@ -8,24 +8,6 @@ A simple electronic payment system implementing the Factory Method design patter
 
 EasyPayGateway is a lightweight PHP application that allows selecting multiple payment gateways (PayPal, Stripe, Bank Transfer) to process payments.  
 This project demonstrates how to use the **Factory Method** pattern to decouple the creation of payment gateway objects from their usage, making the system easy to extend and maintain.
-
----
-
-## Project Structure
-
-payment-system/
-│
-├── index.php ← Main entry point
-├── PaymentGatewayInterface.php ← Payment gateway interface
-├── gateways/ ← Payment gateway implementations
-│ ├── PayPalGateway.php
-│ ├── StripeGateway.php
-│ └── BankTransferGateway.php
-├── factories/
-│ └── PaymentGatewayFactory.php ← Factory class for creating payment gateways
-
-
-
 ---
 
 ## How to Use
